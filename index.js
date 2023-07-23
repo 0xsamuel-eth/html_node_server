@@ -1,3 +1,7 @@
+const http = require('http');
+// add the fs library for reading from the file system
+const fs = require('fs');
+
 const server = http.createServer((request, response) => {
     // by default we'll serve index.html
     let filename = "index.html";
